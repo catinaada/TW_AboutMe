@@ -1,0 +1,118 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.content1{
+    text-align: center;
+    background-image:url("Imagini/pastel-yellow.jpg");
+    font-family: 'Dancing Script', cursive;
+    color:rgb(34, 72, 176);
+    padding: 100px 1px 180px 1px; 
+    border-color:rgb(204, 252, 226);
+    font-size:larger;
+}
+#titlul1{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:medium;
+}
+
+
+hr{
+    border-top: 20px dotted rgb(215, 220, 221);
+    border-bottom: 0ch;
+    width: 202px;   
+    background-color: white;
+    opacity: 0.75;
+}
+
+
+
+.content2{
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    padding: 20px 1px 20px 1px; 
+
+}
+.content2 img{
+    
+    border-radius:50%;
+   width:150px;
+   height: 150px;
+   display: block;
+   margin: auto;
+}
+
+.heart{
+    background-image: url("Imagini/inima.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 20px;
+    top: 5px;
+    display: inline-block;
+    position: relative;
+}
+
+.content3{
+    
+    font-family: 'Rubik', sans-serif;
+    background-color: rgb(255, 252, 240);
+    padding: 30px 50px; 
+    margin: 40px 0px;
+    text-align: justify;
+}
+
+
+.content3 img{
+    width: 130px;
+    height: 130px;
+}
+
+
+.content4{
+    font-family: 'Rubik', sans-serif;
+    background-color: white;
+    padding: 20px 10px; 
+    text-align: center;
+    color:rgb(34, 72, 176);
+    
+
+}
+
+#buton{
+    border-radius: 50%;
+    background-color:white;
+    border:2px solid rgb(219, 106, 50);
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    font-size: large;
+    padding: 15px 30px;
+}
+#buton:hover{
+    color:white;
+    background-color: rgb(219, 106, 50);
+}
+
+#footer{
+    padding: 15px;
+    text-align: center;
+    background-image:url("Imagini/pastel-yellow.jpg");
+    font-family: 'Source Sans Pro', sans-serif;
+    color:rgb(20, 46, 118);
+    font-size: small;
+   
+}
+
+#footer a{
+    font-family: 'Fuzzy Bubbles', cursive;
+    text-decoration: none;
+    font-size: medium;
+    color:rgb(20, 46, 118);
+    margin: 0 10px;
+    
+
+}
